@@ -1,4 +1,4 @@
-# 🐾 Animal Image Classifier (FastAPI + Machine Learning)
+# Animal Image Classifier (FastAPI + Machine Learning)
 
 This project is a simple and efficient **Animal Image Classification System** built using **classical machine learning models** and deployed using **FastAPI**.  
 The system allows users to upload an image of a wild animal through a beautiful frontend interface and get a prediction from the backend API.
@@ -50,3 +50,23 @@ Install required Python packages:
 
 ```bash
 pip install fastapi uvicorn numpy pillow scikit-learn joblib python-multipart
+```
+
+Train the Models (If using new dataset)
+```bash
+python train_models.py
+```
+Start FastAPI Server
+```bash
+python -m uvicorn main:app --reload
+```
+You should see:
+
+Uvicorn running on http://127.0.0.1:8000
+
+Open the Frontend
+
+Open:
+static/index.html
+
+Upload an animal image → choose model → classify.
