@@ -34,7 +34,7 @@ This project follows a complete ML workflow:
    - Accepts an uploaded image
    - Preprocesses and flattens it
    - Predicts the animal class
-   - Returns prediction + confidence (if available)
+   - Returns prediction
 
 5. **Frontend UI**  
    A responsive HTML frontend is used to:
