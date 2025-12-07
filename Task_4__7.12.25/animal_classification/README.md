@@ -61,12 +61,9 @@ Start FastAPI Server
 python -m uvicorn main:app --reload
 ```
 You should see:
-
+```bash
 Uvicorn running on http://127.0.0.1:8000
-
-Open the Frontend
-
-Open:
-static/index.html
+```
+Open the Frontend --> static/index.html
 
 Upload an animal image → choose model → classify.
